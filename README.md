@@ -4,9 +4,9 @@
 ```Java
 //Usage
     
-	public UnicodeFontRenderer exampleFont;
-	public String fontName = "Font";
-	public float fontSize = 20.0F;
+    public UnicodeFontRenderer exampleFont;
+    public String fontName = "Font";
+    public float fontSize = 20.0F;
 
     @Mod.EventHandler
     public void onInitialization(FMLInitializationEvent event) {
