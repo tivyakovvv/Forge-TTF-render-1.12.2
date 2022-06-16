@@ -53,15 +53,15 @@ public class TTFRenderMod  {
     }
     
     //for already registered fonts
-    public void drawString(UnicodeFontRenderer font, String text, int x, int y, float size, int color) {
+    public void drawString(UnicodeFontRenderer font, String text, int x, int y, int color) {
     	font.drawString(text, x, y, color);  
     }
     
-    public void drawCenteredString(UnicodeFontRenderer font, String text, int x, int y, float size, int color) {
+    public void drawCenteredString(UnicodeFontRenderer font, String text, int x, int y, int color) {
     	font.drawCenteredString(text, x, y, color);  
     }
     
-    public void drawStringWithShdaow(UnicodeFontRenderer font, String text, int x, int y, float size, int color) {
+    public void drawStringWithShdaow(UnicodeFontRenderer font, String text, int x, int y, int color) {
     	font.drawString(text, x, y, color);  
     }
     
