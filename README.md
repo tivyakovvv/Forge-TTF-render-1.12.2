@@ -39,7 +39,7 @@ ___OR___
     @Override
 	public void drawScreen(int i1, int i2, float f) {
 	    super.drawScreen(i1, i2, f);
-		TTFRenderMod.INSTANCE.drawCenteredString(TTFRenderMod.INSTANCE.exampleFont, , "Hello fonts!",  x, y, fontSize, -65794);
+		TTFRenderMod.INSTANCE.drawCenteredString(TTFRenderMod.INSTANCE.exampleFont, "fontName", "Hello fonts!",  x, y, fontSize, -65794);
 	}
 	
 
