@@ -140,7 +140,7 @@ public UnicodeFontRenderer(Font awtFont, float n, int p_addGlyphs_1_, int p_addG
       GL11.glDisable(2896); 
     if (texture)
       GL11.glDisable(3553); 
-    this.font.drawString(x *= 2.0F, y *= 2.0F, string);
+    this.font.drawString(x *= 2.0F, y *= 2.0F, string, new org.newdawn.slick.Color(color));
     if (texture)
       GL11.glEnable(3553); 
     if (lighting)
